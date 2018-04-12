@@ -1,10 +1,20 @@
-console.log(__dirname);
-console.log(__filename);
-console.log(myFunction('yes', 'no'));
+var counter = require('./stuff');
 
-let myFunction = (yarp, narp) => {
-  console.log(yarp, narp);
-};
+console.log(counter(['shaun', 'crystal', 'ryu']));
+
+['shayn', 'joe'].forEach(function(elem) {
+  console.log(elem);
+});
+
+// console.log(__dirname);
+// console.log(__filename);
+//
+// let myFunction = (yarp, narp) => {
+//   console.log(yarp, narp);
+// };
+//sw
+// console.log(myFunction('yes', 'no'));
+
 //
 // myFunction('hello', 'goodbye');
 //
