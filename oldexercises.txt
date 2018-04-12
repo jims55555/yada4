@@ -1,0 +1,97 @@
+
+
+//
+// fs.mkdir('stuff', (err) => {
+//   fs.readFile('readme.txt', 'utf8', (err, data) => {
+//     fs.writeFile('./stuff/writeMe.txt', data);
+//   });
+// });
+
+// fs.unlink('./stuff/writeMe.txt', () => {});
+// fs.rmdir('stuff');
+
+//fs.mkdirSync('stuff');
+//fs.rmdirSync('stuff');
+
+//fs.unlink('writeMe.txt');
+
+// var readMe = fs.readFile('readme.txt', 'utf8', (err, data) => {
+//   fs.writeFile('writeMe.txt', data, (err) => {
+//     if (err) {
+//       console.log(err);
+//     } else {
+//       console.log('success');
+//     }
+//   });
+// });
+
+// var readMe = fs.readFileSync('readme.txt', 'utf8');
+// console.log(readMe);
+// var writeMe = fs.writeFileSync('writeme.txt', readMe);
+
+// var events = require('events');
+// var util = require('util');
+//
+// var Person = function(name) {
+//   this.name = name;
+// };
+//
+// util.inherits(Person, events.EventEmitter);
+// var james = new Person('james');
+// var mary = new Person('mary');
+// var ryi = new Person('ryi');
+//
+// var People = [james, mary, ryi];
+//
+// People.forEach((person) => {
+//   person.on('speak', (msg) => {
+//     console.log(`${person.name} said: ${msg}`);
+//   });
+// });
+//
+// james.emit('speak', 'hey dudes');
+// ryi.emit('speak', 'i want a curry');
+// class MyEmitter extends EventEmitter {};
+// const myEmitter = new MyEmitter();
+//
+// myEmitter.on('someEvent', (msg) => {
+//   console.log(msg);
+// });
+//
+// myEmitter.emit('someEvent', 'the event was emitted');
+
+// console.log(stuff.counter(['shaun', 'crystal', 'ryu']));
+// console.log(stuff.adder(5, 6));
+// console.log(stuff.adder(stuff.pi, 5));
+// console.log(global.__dirname);
+// console.log(__dirname);
+
+// ['shayn', 'joe'].forEach(function(elem) {
+//   console.log(elem);
+// });
+
+// console.log(__dirname);
+// console.log(__filename);
+//
+// let myFunction = (yarp, narp) => {
+//   console.log(yarp, narp);
+// };
+// console.log(myFunction('yes', 'no'));
+//sw
+
+//
+// myFunction('hello', 'goodbye');
+//
+// setTimeout(() => {
+//   console.log('3 seconds have passed');
+// }, 3000);
+
+// var time = 0;
+//
+// setInterval(function() {
+//   time += 2;
+//   console.log(time + ' seconds have passed');
+//   if (time > 5) {
+//     clearInterval(time);
+//   }
+// }, 2000);
