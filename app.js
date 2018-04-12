@@ -1,8 +1,10 @@
 console.log(__dirname);
 console.log(__filename);
-// let myFunction = (yarp, narp) => {
-//   console.log(yarp, narp);
-// };
+console.log(myFunction('yes', 'no'));
+
+let myFunction = (yarp, narp) => {
+  console.log(yarp, narp);
+};
 //
 // myFunction('hello', 'goodbye');
 //
